@@ -49,33 +49,33 @@
     <div class="background-beach-image">
       <!-- <img src="Screenshot 2024-03-06 at 12.08.11 AM.png"/> -->
      <div class="booking">
-        <div class="booking-header">
+        <div class="booking-header" aria-label="Booking header">
             Book Your Flight
         </div>
 
-        <div class="type-selection">
+        <div class="type-selection" aria-label="Return Option Selection">
           <div class="type-selection-circle"></div>
-          <div class="type-selection-text"> One-way </div>
+          <div class="type-selection-text" aria-label="One-way Trip"> One-way </div>
           <div class="type-selection-circle"></div>
-          <div class="type-selection-text"> Roundtrip </div>
+          <div class="type-selection-text" aria-label="Roundtrip Trip"> Roundtrip </div>
         </div>
 
-        <div class="destination-and-time">
+        <div class="destination-and-time" >
             <div class="destination">  
                 <div class="to">
                     <div class="destination-text">To</div>
-                    <div class="destination-box">TO</div>
+                    <div class="destination-box" aria-label="Origin Dropdown">TO</div>
                 </div>
 
-                <div class="destination-switch">
+                <div class="destination-switch" aria-labels="Switch Destinations">
                   <div id="switch-circle">
-                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-solid fa-repeat" ></i>
                   </div>
                 </div>
 
                 <div class="from">
                     <div class="destination-text">From</div>
-                    <div class="destination-box">FROM</div>
+                    <div class="destination-box" aria-label="Destination Dropdown">FROM</div>
                 </div>
 
             </div>
@@ -84,13 +84,13 @@
             <div class="time">
                 <div class="departing">
                     <div class="time-text">Departing</div>
-                    <div class="time-box">
+                    <div class="time-box" aria-label="Departing Calendar">
                         <i class="fa-solid fa-calendar"></i>
                     </div>
                 </div>
                 <div class="returning">
                     <div class="time-text">Returning</div>
-                    <div class="time-box">
+                    <div class="time-box" aria-label="Returning Calendar">
                         <i class="fa-solid fa-calendar"></i>
                     </div>
                 </div>
@@ -100,33 +100,37 @@
             <div class="traveler">
                 <div class="travel-contents">
                       <div class="traveler-text">Traveler(s)</div>
-                      <div class="traveler-box"> 
+                      <div class="traveler-box" aria-label="Number of Travelers"> 
                           1 
                         <i class="fa-solid fa-user"></i>
                       </div>
                 </div>
-               
-                    <!-- <div class="traveler-box"></div> -->
             </div>
         </div>
 
-        <div class="search-flights-button">Search for Flights</div>
+        <div class="search-flights-button" aria-label="Searching button for flight">Search for Flights</div>
 
     </div>
   </div>
 
-  <div class="warning">
+  <div class="warning" aria-label="Warning Message">
     <div class= "warning-header"> Warning Valued Customers:</div>
     <br>
     <div class= "warning-message"> 
-      If the Credit Card Holder is not traveling but is purchasing tickets for <br> 
-      other persons please complete this authorization form and submit <br> it prior to your 
-      travel date to enquiries@southernaircharter.com. <br>
+      If the Credit Card Holder is not traveling but is purchasing tickets 
+      <br> 
+      for other persons please complete this authorization form and submit it <br> prior to your 
+      travel date to
+      <div class="warning-message" id="warning-email"> enquiries@southernaircharter.com. </div>
       <br> 
 
       Please be advised that if you have paid and have not received <br>your 
       itinerary please call our office directly at 242-377-2014  
-      thru 7, <br> 954-302-3107 or send an email to southernairbah@gmail.com. <br>
+      thru 7, <br> 954-302-3107 or send an email to 
+      <div clas="warning-message" id="warning-email">
+         southernairbah@gmail.com. 
+      </div>
+     <br>
       We do apologize for the inconvenience.
     </div>
 </div>
@@ -135,7 +139,7 @@
 <div class="bottom-bar">
   <div class="search">
         <div class="search-text"> Didn't Find What You're Looking For?</div>
-        <div class="searchbar-box"> 
+        <div class="searchbar-box" aria-label="Search Bar"> 
             Search 
             <i class="fa-solid fa-magnifying-glass"></i>  
         </div>
@@ -143,14 +147,16 @@
 
 
   <div class="contact">
-      <div class="contact-text">
-          <div>Customer Support: <br> Office: (242) 377-2017 <br> Emergency: (954) 302-3107 </div>
+      <div class="contact-text" aria-label="Contact Phone Numbers">
+          <div>Customer Support: <br> 
+            <div class="email">  Office: (242) 377-2017 </div>
+            <div class="email"> Emergency: (954) 302-3107</div>  </div>
       </div>
-      <div class="contact-text">
+      <div class="contact-text" aria-label="Contact Email">
           <div>Email: <br> enquiries@southernaircharter.com </div>
       </div>
      
-      <div class="icons">
+      <div class="icons" aria-label="Contact Icons">
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-twitter"></i>
     </div>
@@ -158,11 +164,11 @@
 
 <br>
 
-    <div class="learn-more-content">
+    <div class="learn-more-content" aria-label="Naviation Dropdown">
         <div class="learn-more-text">Navigation</div>
         <i class="fa-solid fa-caret-down"></i>
     </div>
-     <div class="bottom-navbar">
+     <div class="bottom-navbar" aria-label="Navigation">
               <div class="bottom-navbar-text">
                   <a>HOME</a>
                   <a>ABOUT</a>

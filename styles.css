@@ -301,6 +301,11 @@ body {
     font-size: 35px;
     color:#000000;
     line-height: 1.5;
+   
+  }
+
+  .email{
+    color:white
   }
 
   
@@ -464,6 +469,10 @@ body {
         height:70vh;
     }
 
+    .background-beach-image{
+        height:80vh;
+    }
+
 
     .type-selection{
         display:flex;
@@ -475,16 +484,33 @@ body {
         margin-right:20px;
     }
 
-    .traveler{
+    .traveler-contents{
         display:flex;
         justify-content: flex-end;
-        margin-left:20px;
+    }
+
+    .traveler{
+        display:flex;
+        /* justify-content: flex-end; */
+        margin-left:78px;
+        justify-content: flex-end;
     }
 
     .time{
         flex-direction: row;
         right:auto;
         justify-content:flex-start;
+    }
+
+    #warning-email{
+        font-size:22px;
+      }
+
+    .resize-navbar{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:5%
     }
   }  
 
