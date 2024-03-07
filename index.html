@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- import CSS styles -->
-    <title>Southern Air Charter Responsive Redesign Website</title>
+    <title>Southern Air Charter Responsive Redesign HANDIN</title>
     <link rel="stylesheet" href="styles.css" /> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Judson&display=swap">
@@ -11,183 +11,126 @@
   </head>
   <body>
 
-    <div class = "topbar"> 
-      <img src="Screenshot 2024-03-06 at 5.31.57 PM.png" alt="Souther Air Logo Image" id="logo">
+    <h1>Responsive Redesign of a Webapplication</h1>
+    <h2 class="below-header">A Responsive Redesign of Southern Air Charter's Landing Page </h2>
+    <img class="first-picture" src="Screenshot 2024-03-06 at 11.06.13 PM.png">
 
-     
+    <h2 class="body-text">Overview</h2>
+    Throughout this redesign, I analyzed and explored the usability and accessibility of Southern Air’s web page. 
+    I looked into the responsiveness of their homepage to examine how different elements on the page interacted 
+    with each other. I also inspected the accessibility features that previous developers had neglected.
+    <br> <br>
 
-      <div class="topnav">
+    I began redesigning their page by brainstorming sketches of a new potential design. From here, 
+    I moved to create three annotated low-fidelity wireframes, one for each screen size (computer, tablet, phone). 
+    I pointed out key differences to address prominent usability issues. Next, I progressed to create a 
+    style guide for the redesign, including principal components and layout schemes. Additionally, I 
+    designed three high-fidelity wireframes based on the elements of my style guide. Lastly, I programmed 
+    the new interface, utilizing my high-fidelity frames. I incorporated basic design principles, such as 
+    alignment and visual hierarchy, as well as hierarchical CSS styling and functional responsiveness. 
 
-         <div class="resize-navbar">
-        <i class="fa-solid fa-grip-lines"></i>
-      </div>
-          <a class="home" >HOME</a>
-          <a class="about">ABOUT</a>
-          <div class= "dropdown">
-              <a >BOOK</a>
-              <i class="fa-solid fa-caret-down"></i>
-          </div>
-       <div class="dropdown">
-          <a >ROUTE</a>
-          <i class="fa-solid fa-caret-down"></i>
-       </div>
-          <a class="con">CONTACT</a>
-        <div class="login">
-          <div id="signin">
-            <i class="fa-solid fa-dove" id="dove"></i>
-          </div>
-        </div>  
-    </div>
-  </div>
-
-
-
-<main>
-
-  <secion id="booking">
-  
-    <div class="background-beach-image">
-      <!-- <img src="Screenshot 2024-03-06 at 12.08.11 AM.png"/> -->
-     <div class="booking">
-        <h1 class="booking-header" aria-label="Booking header">
-            Book Your Flight
-        </h1>
-
-        <div class="type-selection" aria-label="Return Option Selection">
-          <div class="type-selection-circle"></div>
-          <div class="type-selection-text" aria-label="One-way Trip"> One-way </div>
-          <div class="type-selection-circle"></div>
-          <div class="type-selection-text" aria-label="Roundtrip Trip"> Roundtrip </div>
-        </div>
-
-        <div class="destination-and-time" >
-            <div class="destination">  
-                <div class="to">
-                    <div class="destination-text">To</div>
-                    <div class="destination-box" aria-label="Origin Dropdown">TO</div>
-                </div>
-
-                <div class="destination-switch" aria-labels="Switch Destinations">
-                  <div id="switch-circle">
-                    <i class="fa-solid fa-repeat" ></i>
-                  </div>
-                </div>
-
-                <div class="from">
-                    <div class="destination-text">From</div>
-                    <div class="destination-box" aria-label="Destination Dropdown">FROM</div>
-                </div>
-
-            </div>
-
-            
-            <div class="time">
-                <div class="departing">
-                    <div class="time-text">Departing</div>
-                    <div class="time-box" aria-label="Departing Calendar">
-                        <i class="fa-solid fa-calendar"></i>
-                    </div>
-                </div>
-                <div class="returning">
-                    <div class="time-text">Returning</div>
-                    <div class="time-box" aria-label="Returning Calendar">
-                        <i class="fa-solid fa-calendar"></i>
-                    </div>
-                </div>
-                    
-            </div>
-
-            <div class="traveler">
-                <div class="travel-contents">
-                      <div class="traveler-text">Traveler(s)</div>
-                      <div class="traveler-box" aria-label="Number of Travelers"> 
-                          1 
-                        <i class="fa-solid fa-user"></i>
-                      </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="search-flights-button" aria-label="Searching button for flight">Search for Flights</div>
-
-    </div>
-  </div>
-
-</secion>
-
-<section id="warning">
-
-  <div class="warning" aria-label="Warning Message">
-    <div class= "warning-header"> Warning Valued Customers:</div>
+    <h2 class="body-text">Motivation</h2>
+    Recently, trying to buy a flight on a very niche and limited path, 
+    I had to interact with the Southern Air interface. I instantly became confused with how to book 
+    my flight, as well as how to scroll down on the page. The poor color contrast and font-sizing 
+    only confused me more, with providing limited structural hierarchy and how to navigate the site. 
+    I had used many different airline websites before this experience, however, none of my previous 
+    understanding and knowledge applied for how to navigate the page. 
+    <br> <br>
+    <a class="webpage-name" href="https://www.southernaircharter.com/">Southern Air's Current Webpage</a>
+    <!-- <div class="webpage-name"> Southern Air Current Webpage: https://www.southernaircharter.com/</div> -->
     <br>
-    <div class= "warning-message"> 
-      If the Credit Card Holder is not traveling but is purchasing tickets 
-      <br> 
-      for other persons please complete this authorization form and submit it <br> prior to your 
-      travel date to
-      <div class="warning-message" id="warning-email"> enquiries@southernaircharter.com. </div>
-      <br> 
-
-      Please be advised that if you have paid and have not received <br>your 
-      itinerary please call our office directly at 242-377-2014  
-      thru 7, <br> 954-302-3107 or send an email to 
-      <div clas="warning-message" id="warning-email">
-         southernairbah@gmail.com. 
-      </div>
-     <br>
-      We do apologize for the inconvenience.
+    <div class="current-webpage-pictures">
+      <img src="Screenshot 2024-03-06 at 10.59.38 PM.png">
+      <img src="Screenshot 2024-03-06 at 11.00.00 PM.png">
+      <img src="Screenshot 2024-03-06 at 11.00.34 PM.png">  
     </div>
-</div>
+    
+    <h3>Observations</h3>
+    <table>
+      <tr>
+        <th>USABILITY GUIDELINES</th>
+        <th>NOTES</th>
+      </tr>
+      <tr>
+        <th>Learnability</th>
+        <th> 
+          - Different from most air travel websites so have to get used to a different UI <br>
+          - Have to look around website to see where to buy a flight; Unintuitive UI <br>
+          - Not blatantly obvious where to go
+        </th>
+      </tr>
+      <tr>
+        <th>Memorability</th>
+        <th> - Since it's unlike other air travel websites, if you aren’t buying flights through Southern Air frequently, it's easy to forget how it works
+        </th>
+      </tr>
+      <tr> 
+        <th>Efficiency</th>
+        <th>
+          - Have to scroll to buy a flight <br>
+          - Have to read these warning messages first – seem more important than buying the flight <br>
+          - If not on the home page, don’t have access to same features (eg top bar goes away) <br>
+          - No way to change your flight without starting the process over 
+        </th>
+      </tr>
+      <tr>
+        <th>Design</th>
+        <th>
+          - Poor color contrast; top bar blends with rest of page <br>
+          - Overlapping text <br>
+          - Minimal text accompaniment with icons <br>
+          - Abnormal scrolling quality <br>
+          - Lack of professionalism <br>
+          
 
-</section>
+        </th>
+      </tr>
 
-</main>
+    </table>
+
+    <h3>Wave Report</h3>
+    <div >
+      The main takeaway from the WAVE Report is the abundance of color contrast errors; almost every text on the
+     page has color contrast errors. Additionally, the text has poor alignment, placement, and size accessibility. 
+     There are also many issues with labels, alternative text, and aria labels, limiting the accessibility of the site. 
+    </div>
+    
+
+    <h2 class="body-text">Final Product</h2> 
+    <a class="webpage-name" href="https://eperelm2.github.io/1300-Responsive-Redesign/">Southern Air Responsive Redesign</a>
+    <br>
+    <div class="current-webpage-pictures">
+      <img src="Screenshot 2024-03-06 at 11.06.13 PM.png">
+      <img src="Screenshot 2024-03-06 at 11.06.28 PM.png">
+      <img src="Screenshot 2024-03-06 at 11.06.37 PM.png">  
+    </div>
 
 
-<div class="bottom-bar">
-  <div class="search">
-        <div class="search-text"> Didn't Find What You're Looking For?</div>
-        <div class="searchbar-box" aria-label="Search Bar"> 
-            Search 
-            <i class="fa-solid fa-magnifying-glass"></i>  
+    <h2>Steps of Development</h2>
+        <h3>Sketches</h3>
+        <div class="current-webpage-pictures">
+          <img src="Screenshot 2024-03-06 at 11.13.53 PM.png">
+          <img src="Screenshot 2024-03-06 at 11.14.05 PM.png">
         </div>
-  </div>
+        <h3>Low </h3>
+        - wireframe for each screen
+        - with annotations
+        <h3>Style Guide</h3>
+        - style guide
+        <h3>high</h3>
+        - 3 hi fi
 
-
-  <div class="contact">
-      <div class="contact-text" aria-label="Contact Phone Numbers">
-          <div>Customer Support: <br> 
-            <div class="email">  Office: (242) 377-2017 </div>
-            <div class="email"> Emergency: (954) 302-3107</div>  </div>
-      </div>
-      <div class="contact-text" aria-label="Contact Email">
-          <div>Email: <br> enquiries@southernaircharter.com </div>
-      </div>
-     
-      <div class="icons" aria-label="Contact Icons">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-twitter"></i>
-    </div>
-  </div>
-
-<br>
-
-    <div class="learn-more-content" aria-label="Naviation Dropdown">
-        <div class="learn-more-text">Navigation</div>
-        <i class="fa-solid fa-caret-down"></i>
-    </div>
-     <div class="bottom-navbar" aria-label="Navigation">
-              <div class="bottom-navbar-text">
-                  <a>HOME</a>
-                  <a>ABOUT</a>
-                  <a>BOOK</a>
-                  <a>ROUTE</a>
-                  <a>CONTACT</a>
-              </div>
-          </div>
-
-
-
+     <h2 class="body-text">Takeaways and limitations</h2>   
+     Overall, I investigated flaws and usability errors when resizing and interacting with the Southern Air
+      website. I practiced applying necessary usability terms, such as aria-labels, HTML hierarchical labels, 
+      and alt tags. I saw how to construct HTML elements that responsively resize to different screen sizes. 
+      I explored problematic color layouts and hierarchies and how these elements could benefit from a responsive 
+      redesign. 
+        <br> <br>
+      In my redesign, you may notice the dropdown button that appears when the screen is resized lacks certain
+      qualities, detail, and depth that a dropdown button typically possess. This is due to the limitations of 
+      availability for non-paid icons. 
 
   </body>
 
