@@ -46,8 +46,52 @@ body {
   }
 
   .first-picture{
-    width:40%;
+    width:45%;
     display: block; /* Ensures the image is treated as a block element */
     margin-left: auto; /* Auto margin left and right */
     margin-right: auto;
+  }
+
+  .wire-frames{
+    display:flex;
+    flex-direction: column;
+    width:500px;
+
+  }
+
+  #wire-frame4{
+    width:500px;
+    height:500px;
+
+  }
+
+  #wire-frame3{
+    width:600px;
+    height:600px;
+  }
+
+  #wire-frame4, #wire-frame1 {
+    width:600px;
+    height:650px;
+  }
+
+  #wire-frame2{
+    width:650px;
+    height:650px;
+  }
+
+  #wire-frame5{
+    width:600px;
+    height:650px;
+  }
+
+  #wire-frame6{
+    width:700px;
+    height:700px;
+  }
+
+
+  #style-guide{
+    width:650px;
+    height:500px;
   }
