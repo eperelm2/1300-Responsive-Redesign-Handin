@@ -101,7 +101,7 @@ body {
 
 .booking-header{
     color: #FFD500;
-    padding-top: 25px;
+    /* padding-top: 25px; */
     font-size:60px;
     justify-content: center;
     margin-bottom: 20px;
@@ -389,6 +389,7 @@ body {
     flex-direction:row;
     justify-content:space-evenly;
     align-items:center;
+    margin-bottom:10px;
   }
 
   
