@@ -335,6 +335,7 @@ body {
     flex-direction:column;
     align-items: center;
     justify-content: center;
+    
   }
   
   .search-text{
@@ -342,6 +343,9 @@ body {
     color: #FFFFFF;
     margin-top:10px;
     margin-left:10px;
+    text-align:center;
+
+    
   }
   
   .searchbar-box{
@@ -481,7 +485,7 @@ body {
     } 
 
     .departing{
-        margin-right:20px;
+        margin-right:23px;
     }
 
     .traveler-contents{
@@ -503,7 +507,7 @@ body {
     }
 
     #warning-email{
-        font-size:22px;
+        font-size:24px;
       }
 
     .resize-navbar{
